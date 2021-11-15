@@ -5,6 +5,7 @@
   "author": "inregist, pyudai",
   "license": "MIT",
   "scripts": {
-    "compile": "xelatex report.tex -aux-directory=./tmp"
+    "compile": "xelatex report.tex -aux-directory=./tmp",
+    "build": "npm run compile -jobname='No23_1011-1064_Aj-Natasha_Report'"
   }
 }
