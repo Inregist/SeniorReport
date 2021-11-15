@@ -2,7 +2,7 @@
   "name": "Report",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "inregist <inregist.irg@gmail.com>",
+  "author": "inregist, pyudai",
   "license": "MIT",
   "scripts": {
     "compile": "xelatex report.tex -aux-directory=./tmp"
