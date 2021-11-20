@@ -92,7 +92,7 @@
 \def\thaidissdegree{}
 \def\thaidissyear{}
 
-\def\fnum@figure{รูปทีี่~\thefigure}
+\def\fnum@figure{รูปที่~\thefigure}
 \def\fnum@table{ตารางที่~\thetable}
 \renewcommand{\chaptername}{บทที่}
 
