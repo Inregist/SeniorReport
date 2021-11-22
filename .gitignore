@@ -3,3 +3,5 @@ node_modeules
 
 report.*
 !report.tex
+
+__latexindent_temp.tex
