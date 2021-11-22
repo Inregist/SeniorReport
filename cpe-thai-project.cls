@@ -139,7 +139,7 @@
 \textheight 24.69cm \advance\textheight by \topskip \textwidth 6.0truein
 \footskip 30pt \footnotesep 7.7pt
 \headheight 12 truept \headsep 25 truept
-\onecolumn \parindent 0em
+% \onecolumn \parindent 0em
 \if@twoside\else\raggedbottom\fi
 \widowpenalty=10000 \clubpenalty=10000 \looseness=1
 
