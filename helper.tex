@@ -1,34 +1,5 @@
-% ref img
-ดังรูปที่~\ref{fig:name}
-
-
-% insert img
-\begin{figure}[!h]\centering
-    \setlength{\fboxrule}{0.2mm}
-    \setlength{\fboxsep}{1cm}
-    \fbox{}
-    \includegraphics[width=10cm]{./imgs/x-x.png}
-    \caption{cap}\label{fig:x-x}
-    \small [ที่มา : \url{ex.com}]
-\end{figure}
-
-\begin{figure}[H]\centering
-    \includegraphics[width=10cm]{./imgs/x-x.png}
-    \caption{cap}\label{fig:x-x}
-\end{figure}
-
-\begin{figure}[H]\centering
-    \begin{minipage}{.3\textwidth}
-      \centering
-      \includegraphics[width=3cm]{./imgs/3-4.png}
-      \caption{ฐานของ Attacker}\label{fig:3-4}
-    \end{minipage}
-    \begin{minipage}{.3\textwidth}
-      \centering
-      \includegraphics[width=3cm]{./imgs/3-5.png}
-      \caption{ฐานของ Defender}\label{fig:3-5}
-    \end{minipage}
-  \end{figure}
+%ตัดขึ้นหน้าใหม่
+\pagebreak
 
 % 1
 \chapter{}
@@ -41,3 +12,61 @@
 
 % 1.1.1.1
 \subsubsection{}
+
+%ตัวหนา
+\textbf{}
+
+%ขีดเส้นใต้
+\underline{}
+
+%เลขเป็นข้อๆ
+\begin{enumerate}
+  \item ข้อความ
+  \item ข้อความ
+  \item ข้อความ
+  \item ข้อความ
+\end{enumerate}
+
+%เลขเป็นbullet จุดๆ
+\begin{itemize}
+  \item ข้อความ
+  \item ข้อความ
+  \item ข้อความ
+  \item ข้อความ
+\end{itemize}
+
+
+% ref img
+ดังรูปที่~\ref{ชื่ออ้างอิงตรง\label}
+
+
+% insert img
+%รูปมีอ้างอิง
+\begin{figure}[H]\centering
+    \setlength{\fboxrule}{0.2mm}  %
+    \setlength{\fboxsep}{1cm}     %
+    \fbox{}                       % กรอบรูป
+    \includegraphics[width=10cm]{./imgs/x-x.png}
+    \caption{caption}\label{fig:x-x}
+    \small [ที่มา : \url{ex.com}]
+\end{figure}
+
+%รูปไม่มีอ้างอิง
+\begin{figure}[H]\centering
+    \includegraphics[width=10cm]{./imgs/x-x.png}
+    \caption{caption}\label{fig:x-x}
+\end{figure}
+
+%2 รูปใน 1 บรรทัด
+\begin{figure}[H]\centering
+    \begin{minipage}{.3\textwidth}
+      \centering
+      \includegraphics[width=3cm]{./imgs/x-x.png}
+      \caption{caption}\label{fig:3-4}
+    \end{minipage}
+    \begin{minipage}{.3\textwidth}
+      \centering
+      \includegraphics[width=3cm]{./imgs/x-x.png}
+      \caption{caption}\label{fig:3-5}
+    \end{minipage}
+  \end{figure}
